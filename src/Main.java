@@ -28,13 +28,13 @@ public class Main {
         double kmTotalComGasolina = litrosDeGasolinaComValorFixo * kmPorLitroGasolina;
         double  kmTotalComEtanol = litroDeEtanolComValorFixo * kmPorLitroEtanol;
 
-        System.out.printf("%.2f km%n", kmTotalComGasolina);
-        System.out.printf("%.2f km%n ", kmTotalComEtanol);
+        System.out.printf("%.2f km com gasolina.%n", kmTotalComGasolina);
+        System.out.printf("%.2f km com etanol.%n ", kmTotalComEtanol);
 
         if(kmTotalComGasolina > kmTotalComEtanol){
-            System.out.println("A vantagem " + nomeCarro + " está com a Gasolina");
+            System.out.println("A vantagem do " + nomeCarro + " está com a Gasolina");
         }  else {
-            System.out.println("A vantagem " + nomeCarro + " está com o Etanol.");
+            System.out.println("A vantagem do " + nomeCarro + " está com o Etanol.");
         }
 
     }
